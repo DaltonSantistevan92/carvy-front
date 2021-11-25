@@ -1,0 +1,347 @@
+/* Estilo del menu superior */
+.br-rojoPastel{
+    background-color:#d22c21 !important;
+}
+
+.br-rojoPastel > ul > li > a{
+    color: #ffff !important;
+}
+
+.error{
+    color: red !important;
+}
+
+.b1{
+    border: 1px solid;
+}
+
+.table-vehiculo{
+    height: 305px;
+    overflow: auto;
+}
+
+.table-cliente{
+    height: 308px;
+    overflow: auto;
+}
+
+.clientes:hover{
+    background-color: #6c6c757d;
+    color: white;
+    transition: all 0.8s ease;
+}
+
+.clientes{
+    transition: all 0.8s ease;
+}
+
+.select-cliente{
+    background-color: #3d9970;
+    color: white;
+    border: none;
+    transition: all 0.1s ease;
+}
+
+.rt{
+    transform: rotate(60deg);
+}
+
+.tabla-buscar-prveedor{
+    overflow: auto;
+}
+
+.bg-white{
+    background-color: #fff !important;
+    color: #333 !important;
+}
+
+.img-mecanico{
+    width: 125px;
+    height: 100%;
+}
+
+.img-mecanico > img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+.none{
+    display: none !important;
+}
+
+.login-per{
+    background: url("http://192.168.100.213/carvy_2.0/front-end/views/dist/img/carvylocal.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.box-acordeon{
+    min-height: 300px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.container-box-orden{
+    overflow: hidden;
+}
+
+.box-default{
+    border:0px solid #000;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-default .img-carvy{
+    border: 0px solid palegreen;
+    background-image: url(../img/carvy.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+}
+
+.box-default > span{
+    font-size: 1.7rem;
+    color: rgba(0,0,0,.5);
+}
+
+.card-body .box-orden{
+    border:0px solid #000;
+    width: 100%;
+    min-height: 300px;
+}
+
+.d-none{
+    display: none;
+}
+
+.orden-general{
+    border: 1px solid #2471A3;
+    width: 100%;
+    min-height: 300px;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+}
+
+.datos-primarios{
+    border: 0px solid purple;
+    width: 100%;
+    display: flex;
+    height: 185px;
+    box-sizing: border-box;
+}
+
+.orden-general .datos-vehiculos{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #2471A3;
+    border-right: 1px solid #2471A3;
+    width: 50%;
+    padding: 10px;
+}
+
+.orden-general .datos-orden{
+    padding: 10px;
+    border:0px solid #000;
+    width: 50%;
+    border-bottom: 1px solid #2471A3;
+}
+
+.orden-general .datos-orden >div{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.title-orden{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+   text-transform: uppercase;
+   background: #CCD1D1;
+   color: #2471A3;
+   font-weight: bold;
+}
+
+.cliente{
+    display: flex;
+    flex-direction: column;
+}
+
+.cliente .datos-cliente{
+    display: flex;
+    flex-direction: column;
+}
+
+.datos-averias{
+    width: 100%;
+    border-bottom: 1px solid #2471A3;
+}
+
+.datos-averias .title-averias{
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #2471A3;
+}
+
+.items-averias{
+    border-bottom: 1px solid #2471A3;
+    width: 100%;
+}
+
+.items-averias > ul{ 
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.items-averias ul li{
+    display: block;
+    border:0px solid red;   
+    width: 200px;
+    padding: 5px;
+    list-style: none;
+}
+
+.factura{
+    background-color: transparent;
+}
+
+.factura-header{
+}
+
+.factura-header-prov{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.factura-header-prov span{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+    line-height: 40px;
+}
+
+.factura-body{
+    min-height: 250px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.factura-title{
+    color: #007bff;
+}
+.factura-body table tr{
+    box-sizing: border-box;
+    padding:20px;
+}
+
+.factura-body table thead tr td{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: start;
+    color: #007bff;
+}
+.factura-body table tr td{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    width: 25%;
+}
+
+.box-items{
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,.2);
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-items .item-valores{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-orden-card{
+    border-bottom: 1px solid red;
+    width: 50%;
+    margin-bottom: 14px;
+}
+
+.orden-trabajo{
+    border: 1px solid #4040ff;
+    border-radius: 5px;
+}
+
+.border-top{
+    border-top: 1px solid #4040ff !important;
+}
+
+.sin-margin-y{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.sin-margin-x{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.sin-padding-y{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.text-azul{
+    color: #4040ff !important;
+}
+
+.border-rigth{
+    border-right: 1px solid #4040ff !important;
+}
+
+.box-items-averias{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 100px;
+}
+
+.box-items-averias > p{
+    text-decoration: underline;
+    /* border-bottom: 1px solid #4040ff ; */
+}
+
+.hr{
+    margin: 7px 0px;
+    border: 0.1px solid #000;
+    width: 100%;
+}
+
+.hr-success{
+    border-color: green;
+}
+
+.hr-danger{
+    border-color: red;
+}
+
+.hr-primary{
+    border-color: blue;
+}
